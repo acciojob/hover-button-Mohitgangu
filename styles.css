@@ -1,2 +1,19 @@
 
 /* Your CSS Code here. */
+/* Initial State */
+#btn {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 20px; /* Optional: adds a nice padding so the button is easily clickable */
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth transition for the hover effects */
+}
+
+/* Hover State */
+#btn:hover {
+  background-color: yellow;
+  color: black;
+  border-radius: 30px;
+}
